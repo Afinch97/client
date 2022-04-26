@@ -27,7 +27,7 @@ function Login({ navigation }) {
 
       if (data.user) {
         localStorage.setItem('token', data.user)
-        navigation.push('Profile')
+        navigation.push('Home')
       }
     };
     console.log(errors);
